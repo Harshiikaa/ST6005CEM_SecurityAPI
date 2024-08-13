@@ -210,3 +210,4 @@
 {"level":"info","message":"User fetched successfully","success":true,"timestamp":"2024-08-13T17:07:11.313Z","user":{"__v":0,"_id":"66bae5a4423a896d78d426dc","email":"eric@gmail.com","firstName":"Eric","lastName":"Maharjan","lockUntil":null,"loginAttempts":0,"password":"$2b$10$5Y6zzdXmPtwea1LhRgm3W.Yb/Dc5eQlb5M5BOGMMqfDiOk2omiqXS","passwordChangedAt":"2024-08-13T04:48:36.680Z","passwordHistory":[],"phoneNumber":"9864700584","userImage":null}}
 {"favorites":[],"level":"info","message":"retrieved","success":true,"timestamp":"2024-08-13T17:07:11.315Z"}
 {"level":"info","message":"retrieved","shoppingBag":[],"success":true,"timestamp":"2024-08-13T17:07:11.379Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:09:03.693Z"}
