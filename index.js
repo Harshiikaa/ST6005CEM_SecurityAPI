@@ -12,12 +12,20 @@ const app = express();
 const helmet = require('helmet');
 const logger = require("./config/logger");
 app.use(helmet());
+const cookieParser = require('cookie-parser');
+// Apply cookie-parser middleware
+app.use(cookieParser());
 const rateLimit = require('express-rate-limit');
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 100 // limit each IP to 100 requests per windowMs
 });
 app.use(limiter);
+
+const logUserActivity = require('./middleware/logUserActivity');
+
+// Other middlewares like session, body parser, etc.
+app.use(logUserActivity);
 // const csurf = require('csurf');
 // const csrfProtection = csurf({ cookie: true });
 // app.use(csrfProtection);
@@ -47,15 +55,15 @@ app.use(session({
   }
 }));
 
-// app.use((req, res, next) => {
-//   logger.info(req.body);
-//   let oldSend = res.send;
-//   res.send = function (data) {
-//     logger.info(JSON.parse(data));
-//     oldSend.apply(res, arguments);
-//   }
-//   next();
-// })
+app.use((req, res, next) => {
+  logger.info(req.body);
+  let oldSend = res.send;
+  res.send = function (data) {
+    logger.info(JSON.parse(data));
+    oldSend.apply(res, arguments);
+  }
+  next();
+})
 
 // multiplarty middleware 
 app.use(multiparty());

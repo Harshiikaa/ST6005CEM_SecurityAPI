@@ -12,7 +12,7 @@ const logger = createLogger({
             format: format.combine(format.timestamp(), format.json())
         }),
         new transports.MongoDB({
-            level: 'error',
+            level: 'info',
             db: process.env.DB_URL,
             options: {
                 useUnifiedTopology: true
