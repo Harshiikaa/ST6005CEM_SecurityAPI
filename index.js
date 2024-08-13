@@ -45,7 +45,15 @@ app.use(session({
   }
 }));
 
-
+// app.use((req, res, next) => {
+//   logger.info(req.body);
+//   let oldSend = res.send;
+//   res.send = function (data) {
+//     logger.info(JSON.parse(data));
+//     oldSend.apply(res, arguments);
+//   }
+//   next();
+// })
 
 // multiplarty middleware 
 app.use(multiparty());
@@ -76,7 +84,7 @@ app.use('/api/rating', require('./routes/ratingRoutes'));
 
 // run the server
 app.listen(PORT, () => {
-  console.log(`Server is running on ${PORT}`);
+  logger.info(`Server is running on ${PORT}`);
 });
 
 module.exports = app;
