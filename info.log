@@ -212,3 +212,41 @@
 {"level":"info","message":"retrieved","shoppingBag":[],"success":true,"timestamp":"2024-08-13T17:07:11.379Z"}
 {"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:09:03.693Z"}
 {"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:10:23.712Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:11:25.377Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:11:59.247Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:12:09.639Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:13:41.140Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:13:49.740Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/user/getSingleUser/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:14:29.647Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:14:29.652Z"}
+{"level":"info","message":{"method":"OPTIONS","sessionId":"No Session","url":"/api/favorite/getFavoritesByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:14:29.689Z"}
+{"level":"info","message":{"method":"OPTIONS","sessionId":"No Session","url":"/api/shoppingBag/getShoppingBagByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:14:29.696Z"}
+{"level":"info","message":{"method":"OPTIONS","sessionId":"No Session","url":"/api/favorite/getFavoritesByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:14:29.701Z"}
+{"level":"info","message":{"method":"OPTIONS","sessionId":"No Session","url":"/api/shoppingBag/getShoppingBagByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:14:29.705Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/favorite/getFavoritesByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:14:29.708Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:14:29.710Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/shoppingBag/getShoppingBagByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:14:29.728Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:14:29.729Z"}
+{"level":"info","message":"User fetched successfully","success":true,"timestamp":"2024-08-13T17:14:29.781Z","user":{"__v":0,"_id":"66bae5a4423a896d78d426dc","email":"eric@gmail.com","firstName":"Eric","lastName":"Maharjan","lockUntil":null,"loginAttempts":0,"password":"$2b$10$5Y6zzdXmPtwea1LhRgm3W.Yb/Dc5eQlb5M5BOGMMqfDiOk2omiqXS","passwordChangedAt":"2024-08-13T04:48:36.680Z","passwordHistory":[],"phoneNumber":"9864700584","userImage":null}}
+{"favorites":[],"level":"info","message":"retrieved","success":true,"timestamp":"2024-08-13T17:14:29.795Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/user/getSingleUser/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:14:29.799Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:14:29.799Z"}
+{"level":"info","message":"retrieved","shoppingBag":[],"success":true,"timestamp":"2024-08-13T17:14:29.807Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/favorite/getFavoritesByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:14:29.812Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:14:29.813Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/shoppingBag/getShoppingBagByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:14:29.824Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:14:29.825Z"}
+{"level":"info","message":"User fetched successfully","success":true,"timestamp":"2024-08-13T17:14:29.912Z","user":{"__v":0,"_id":"66bae5a4423a896d78d426dc","email":"eric@gmail.com","firstName":"Eric","lastName":"Maharjan","lockUntil":null,"loginAttempts":0,"password":"$2b$10$5Y6zzdXmPtwea1LhRgm3W.Yb/Dc5eQlb5M5BOGMMqfDiOk2omiqXS","passwordChangedAt":"2024-08-13T04:48:36.680Z","passwordHistory":[],"phoneNumber":"9864700584","userImage":null}}
+{"favorites":[],"level":"info","message":"retrieved","success":true,"timestamp":"2024-08-13T17:14:29.916Z"}
+{"level":"info","message":"retrieved","shoppingBag":[],"success":true,"timestamp":"2024-08-13T17:14:29.921Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:15:10.946Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:15:19.077Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:15:41.240Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:15:51.397Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:16:13.986Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:16:20.003Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:17:05.999Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:18:10.986Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:18:30.894Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:18:41.616Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:21:00.116Z"}
