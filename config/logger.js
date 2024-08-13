@@ -9,7 +9,7 @@ const logger = createLogger({
         new transports.Console({
             filename: 'info.log',
             level: 'info',
-            // format: format.combine(format.timestamp(), format.json())
+            format: format.combine(format.timestamp(), format.json())
         }),
         // new transports.MongoDB({
         //     level: 'error',
