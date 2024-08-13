@@ -8,6 +8,7 @@ const cloudinary = require('cloudinary');
 const session = require('express-session');  // <-- Import express-session
 const app = express();
 const helmet = require('helmet');
+const logger = require("./config/logger");
 app.use(helmet());
 const rateLimit = require('express-rate-limit');
 const limiter = rateLimit({
@@ -43,6 +44,8 @@ app.use(session({
     maxAge: 1000 * 60 * 60 * 24  // <-- 1 day, set as needed
   }
 }));
+
+
 
 // multiplarty middleware 
 app.use(multiparty());
