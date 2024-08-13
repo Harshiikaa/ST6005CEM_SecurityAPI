@@ -143,3 +143,70 @@
 {"level":"info","message":"User fetched successfully","success":true,"timestamp":"2024-08-13T16:58:28.787Z","user":{"__v":0,"_id":"66bae5a4423a896d78d426dc","email":"eric@gmail.com","firstName":"Eric","isAdmin":false,"lastName":"Maharjan","lockUntil":null,"loginAttempts":0,"password":"$2b$10$5Y6zzdXmPtwea1LhRgm3W.Yb/Dc5eQlb5M5BOGMMqfDiOk2omiqXS","passwordChangedAt":"2024-08-13T04:48:36.680Z","passwordHistory":[],"phoneNumber":"9864700584","userImage":null}}
 {"favorites":[],"level":"info","message":"retrieved","success":true,"timestamp":"2024-08-13T16:58:28.795Z"}
 {"level":"info","message":"retrieved","shoppingBag":[],"success":true,"timestamp":"2024-08-13T16:58:28.805Z"}
+{"level":"info","message":{"method":"OPTIONS","sessionId":"No Session","url":"/api/favorite/getFavoritesByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:00:58.510Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/user/getSingleUser/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:00:58.513Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:00:58.514Z"}
+{"level":"info","message":{"method":"OPTIONS","sessionId":"No Session","url":"/api/shoppingBag/getShoppingBagByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:00:58.519Z"}
+{"level":"info","message":{"method":"OPTIONS","sessionId":"No Session","url":"/api/favorite/getFavoritesByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:00:58.522Z"}
+{"level":"info","message":{"method":"OPTIONS","sessionId":"No Session","url":"/api/shoppingBag/getShoppingBagByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:00:58.525Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/favorite/getFavoritesByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:00:58.528Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:00:58.529Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/shoppingBag/getShoppingBagByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:00:58.538Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:00:58.538Z"}
+{"level":"info","message":"User fetched successfully","success":true,"timestamp":"2024-08-13T17:00:58.596Z","user":{"__v":0,"_id":"66bae5a4423a896d78d426dc","email":"eric@gmail.com","firstName":"Eric","isAdmin":false,"lastName":"Maharjan","lockUntil":null,"loginAttempts":0,"password":"$2b$10$5Y6zzdXmPtwea1LhRgm3W.Yb/Dc5eQlb5M5BOGMMqfDiOk2omiqXS","passwordChangedAt":"2024-08-13T04:48:36.680Z","passwordHistory":[],"phoneNumber":"9864700584","userImage":null}}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/user/getSingleUser/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:00:58.600Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:00:58.602Z"}
+{"favorites":[],"level":"info","message":"retrieved","success":true,"timestamp":"2024-08-13T17:00:58.616Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/favorite/getFavoritesByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:00:58.620Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:00:58.621Z"}
+{"level":"info","message":"retrieved","shoppingBag":[],"success":true,"timestamp":"2024-08-13T17:00:58.673Z"}
+{"level":"info","message":"User fetched successfully","success":true,"timestamp":"2024-08-13T17:00:58.679Z","user":{"__v":0,"_id":"66bae5a4423a896d78d426dc","email":"eric@gmail.com","firstName":"Eric","isAdmin":false,"lastName":"Maharjan","lockUntil":null,"loginAttempts":0,"password":"$2b$10$5Y6zzdXmPtwea1LhRgm3W.Yb/Dc5eQlb5M5BOGMMqfDiOk2omiqXS","passwordChangedAt":"2024-08-13T04:48:36.680Z","passwordHistory":[],"phoneNumber":"9864700584","userImage":null}}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/shoppingBag/getShoppingBagByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:00:58.681Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:00:58.682Z"}
+{"favorites":[],"level":"info","message":"retrieved","success":true,"timestamp":"2024-08-13T17:00:58.776Z"}
+{"level":"info","message":"retrieved","shoppingBag":[],"success":true,"timestamp":"2024-08-13T17:00:58.778Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/user/getSingleUser/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:01:17.969Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:01:17.970Z"}
+{"level":"info","message":{"method":"OPTIONS","sessionId":"No Session","url":"/api/favorite/getFavoritesByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:01:17.975Z"}
+{"level":"info","message":{"method":"OPTIONS","sessionId":"No Session","url":"/api/shoppingBag/getShoppingBagByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:01:17.983Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/favorite/getFavoritesByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:01:17.987Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:01:17.988Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/shoppingBag/getShoppingBagByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:01:17.995Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:01:17.996Z"}
+{"level":"info","message":"User fetched successfully","success":true,"timestamp":"2024-08-13T17:01:18.026Z","user":{"__v":0,"_id":"66bae5a4423a896d78d426dc","email":"eric@gmail.com","firstName":"Eric","isAdmin":false,"lastName":"Maharjan","lockUntil":null,"loginAttempts":0,"password":"$2b$10$5Y6zzdXmPtwea1LhRgm3W.Yb/Dc5eQlb5M5BOGMMqfDiOk2omiqXS","passwordChangedAt":"2024-08-13T04:48:36.680Z","passwordHistory":[],"phoneNumber":"9864700584","userImage":null}}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/user/getSingleUser/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:01:18.038Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:01:18.039Z"}
+{"favorites":[],"level":"info","message":"retrieved","success":true,"timestamp":"2024-08-13T17:01:18.045Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/favorite/getFavoritesByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:01:18.049Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:01:18.049Z"}
+{"level":"info","message":"retrieved","shoppingBag":[],"success":true,"timestamp":"2024-08-13T17:01:18.056Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/shoppingBag/getShoppingBagByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:01:18.061Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:01:18.061Z"}
+{"level":"info","message":"User fetched successfully","success":true,"timestamp":"2024-08-13T17:01:18.098Z","user":{"__v":0,"_id":"66bae5a4423a896d78d426dc","email":"eric@gmail.com","firstName":"Eric","isAdmin":false,"lastName":"Maharjan","lockUntil":null,"loginAttempts":0,"password":"$2b$10$5Y6zzdXmPtwea1LhRgm3W.Yb/Dc5eQlb5M5BOGMMqfDiOk2omiqXS","passwordChangedAt":"2024-08-13T04:48:36.680Z","passwordHistory":[],"phoneNumber":"9864700584","userImage":null}}
+{"favorites":[],"level":"info","message":"retrieved","success":true,"timestamp":"2024-08-13T17:01:18.118Z"}
+{"level":"info","message":"retrieved","shoppingBag":[],"success":true,"timestamp":"2024-08-13T17:01:18.122Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:02:13.689Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:06:54.564Z"}
+{"level":"error","message":"Server is running on 5000","timestamp":"2024-08-13T17:07:05.192Z"}
+{"level":"info","message":{"method":"OPTIONS","sessionId":"No Session","url":"/api/favorite/getFavoritesByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:07:11.017Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/user/getSingleUser/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:07:11.041Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:07:11.047Z"}
+{"level":"info","message":{"method":"OPTIONS","sessionId":"No Session","url":"/api/shoppingBag/getShoppingBagByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:07:11.077Z"}
+{"level":"info","message":{"method":"OPTIONS","sessionId":"No Session","url":"/api/favorite/getFavoritesByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:07:11.101Z"}
+{"level":"info","message":{"method":"OPTIONS","sessionId":"No Session","url":"/api/shoppingBag/getShoppingBagByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:07:11.122Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/favorite/getFavoritesByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:07:11.125Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:07:11.127Z"}
+{"level":"info","message":"User fetched successfully","success":true,"timestamp":"2024-08-13T17:07:11.211Z","user":{"__v":0,"_id":"66bae5a4423a896d78d426dc","email":"eric@gmail.com","firstName":"Eric","lastName":"Maharjan","lockUntil":null,"loginAttempts":0,"password":"$2b$10$5Y6zzdXmPtwea1LhRgm3W.Yb/Dc5eQlb5M5BOGMMqfDiOk2omiqXS","passwordChangedAt":"2024-08-13T04:48:36.680Z","passwordHistory":[],"phoneNumber":"9864700584","userImage":null}}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/shoppingBag/getShoppingBagByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:07:11.229Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:07:11.230Z"}
+{"favorites":[],"level":"info","message":"retrieved","success":true,"timestamp":"2024-08-13T17:07:11.243Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/user/getSingleUser/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:07:11.250Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:07:11.251Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/favorite/getFavoritesByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:07:11.258Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:07:11.258Z"}
+{"level":"info","message":"retrieved","shoppingBag":[],"success":true,"timestamp":"2024-08-13T17:07:11.297Z"}
+{"level":"info","message":{"method":"GET","sessionId":"No Session","url":"/api/shoppingBag/getShoppingBagByUserID/66bae5a4423a896d78d426dc","userName":"Guest"},"timestamp":"2024-08-13T17:07:11.304Z"}
+{"level":"info","message":{},"timestamp":"2024-08-13T17:07:11.305Z"}
+{"level":"info","message":"User fetched successfully","success":true,"timestamp":"2024-08-13T17:07:11.313Z","user":{"__v":0,"_id":"66bae5a4423a896d78d426dc","email":"eric@gmail.com","firstName":"Eric","lastName":"Maharjan","lockUntil":null,"loginAttempts":0,"password":"$2b$10$5Y6zzdXmPtwea1LhRgm3W.Yb/Dc5eQlb5M5BOGMMqfDiOk2omiqXS","passwordChangedAt":"2024-08-13T04:48:36.680Z","passwordHistory":[],"phoneNumber":"9864700584","userImage":null}}
+{"favorites":[],"level":"info","message":"retrieved","success":true,"timestamp":"2024-08-13T17:07:11.315Z"}
+{"level":"info","message":"retrieved","shoppingBag":[],"success":true,"timestamp":"2024-08-13T17:07:11.379Z"}

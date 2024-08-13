@@ -67,10 +67,6 @@ const registerUser = async (req, res) => {
 }
 
 
-
-
-
-
 const lockAccountFor10Minutes = async (userId) => {
     const lockTime = new Date(Date.now() + 10 * 60 * 1000); // 10 minutes from now
     await Users.findByIdAndUpdate(userId, { lockUntil: lockTime });
@@ -457,20 +453,42 @@ const getSingleUser = async (req, res) => {
         return res.json({
             success: false,
             message: "User id is required!"
-        })
+        });
     }
     try {
-        const singleUser = await Users.findById(id);
+        // Exclude the 'isAdmin' field by prefixing it with a minus sign '-'
+        const singleUser = await Users.findById(id).select('-isAdmin');
         res.json({
             success: true,
             message: "User fetched successfully",
             user: singleUser
-        })
+        });
     } catch (error) {
         console.log(error);
-        res.status(500).json("Server Error")
+        res.status(500).json("Server Error");
     }
-}
+};
+
+// const getSingleUser = async (req, res) => {
+//     const id = req.params.id;
+//     if (!id) {
+//         return res.json({
+//             success: false,
+//             message: "User id is required!"
+//         })
+//     }
+//     try {
+//         const singleUser = await Users.findById(id);
+//         res.json({
+//             success: true,
+//             message: "User fetched successfully",
+//             user: singleUser
+//         })
+//     } catch (error) {
+//         console.log(error);
+//         res.status(500).json("Server Error")
+//     }
+// }
 
 // UPDATE USER
 const updateUser = async (req, res) => {
