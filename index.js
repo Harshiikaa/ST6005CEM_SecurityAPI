@@ -1,6 +1,8 @@
 // importing important packages
 const express = require("express");
 const dotenv = require("dotenv");
+require('dotenv').config(); // Load environment variables from .env file
+
 const connectDB = require("./database/db");
 const cors = require('cors');
 const multiparty = require('connect-multiparty');
@@ -84,7 +86,7 @@ app.use('/api/rating', require('./routes/ratingRoutes'));
 
 // run the server
 app.listen(PORT, () => {
-  logger.info(`Server is running on ${PORT}`);
+  logger.error(`Server is running on ${PORT}`);
 });
 
 module.exports = app;

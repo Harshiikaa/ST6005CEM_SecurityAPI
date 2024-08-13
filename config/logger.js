@@ -11,15 +11,15 @@ const logger = createLogger({
             level: 'info',
             format: format.combine(format.timestamp(), format.json())
         }),
-        // new transports.MongoDB({
-        //     level: 'error',
-        //     db: process.env.MONGODB,
-        //     options: {
-        //         useUnifiedTopology: true
-        //     },
-        //     collection: 'babaji',
-        //     format: format.combine(format.timestamp(), format.json())
-        // })
+        new transports.MongoDB({
+            level: 'error',
+            db: process.env.DB_URL,
+            options: {
+                useUnifiedTopology: true
+            },
+            collection: 'userLogs',
+            format: format.combine(format.timestamp(), format.json())
+        })
     ]
 })
 
