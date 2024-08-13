@@ -73,6 +73,11 @@ app.use(session({
   }
 }));
 
+app.get('/', (req, res) => {
+  res.send('Hello, HTTPS server is running!');
+});
+
+
 app.use((req, res, next) => {
   logger.info(req.body);
   let oldSend = res.send;
@@ -100,6 +105,7 @@ app.use(express.json());
 // define port
 const PORT = process.env.PORT;
 
+
 // API End points
 app.use('/api/user', require('./routes/userRoutes'));
 app.use('/api/product', require('./routes/productRoutes'));
@@ -114,6 +120,10 @@ app.use('/api/rating', require('./routes/ratingRoutes'));
 app.listen(PORT, () => {
   logger.error(`Server is running on ${PORT}`);
 });
+
+
+
+
 
 module.exports = app;
 
