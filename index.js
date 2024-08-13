@@ -15,9 +15,9 @@ const limiter = rateLimit({
   max: 100 // limit each IP to 100 requests per windowMs
 });
 app.use(limiter);
-const csurf = require('csurf');
-const csrfProtection = csurf({ cookie: true });
-app.use(csrfProtection);
+// const csurf = require('csurf');
+// const csrfProtection = csurf({ cookie: true });
+// app.use(csrfProtection);
 
 // dot env config
 dotenv.config();

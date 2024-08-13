@@ -11,7 +11,7 @@ const MAX_ATTEMPTS = 3;
 const LOCK_TIME = 10 * 60 * 1000; // Lock time in milliseconds (e.g., 10 minutes)
 
 function checkPasswordExpiry(req, res, next) {
-    const user = req.user; 
+    const user = req.user;
     const now = new Date();
     const lastChanged = new Date(user.passwordChangedAt || user.createdAt);
     const expiryDate = new Date(lastChanged);
@@ -46,11 +46,14 @@ const registerUser = async (req, res) => {
         }
         const generatedSalt = await bcrypt.genSalt(10)
         const encryptedPassword = await bcrypt.hash(password, generatedSalt)
+        const encryptedPhoneNumber = await bcrypt.hash(phoneNumber, generatedSalt)
+        const encryptedEmail = await bcrypt.hash(email, generatedSalt)
+
         const newUser = new Users({
             firstName: firstName,
             lastName: lastName,
-            phoneNumber: phoneNumber,
-            email: email,
+            phoneNumber: encryptedPhoneNumber,
+            email: encryptedEmail,
             password: encryptedPassword
         })
         await newUser.save()
