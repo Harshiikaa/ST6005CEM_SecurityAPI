@@ -17,9 +17,9 @@ const https = require('https');
 const path = require('path');
 const fs = require('fs');
 const logUserActivity = require('./middleware/logUserActivity');
-const key = fs.readFileSync('./cert/decrypt.key');
-const cert = fs.readFileSync('./cert/local.crt');
-const server = https.createServer({ key, cert }, app);
+// const key = fs.readFileSync('./cert/decrypt.key');
+// const cert = fs.readFileSync('./cert/local.crt');
+// const server = https.createServer({ key, cert }, app);
 
 const rateLimit = require('express-rate-limit');
 const limiter = rateLimit({
@@ -42,14 +42,17 @@ app.use(logUserActivity);
 // dot env config
 dotenv.config();
 
-const sslServer = https.createServer(
-  {
-    key: fs.readFileSync(path.join(__dirname, 'cert', 'key.pem')),
-    cert: fs.readFileSync(path.join(__dirname, 'cert', 'cert.pem')),
-  }, app)
-sslServer.listen(3443, () => console.log('secure server on 3443 port'))
+// const sslServer = https.createServer(
+//   {
+//     key: fs.readFileSync(path.join(__dirname, 'cert', 'key.pem')),
+//     cert: fs.readFileSync(path.join(__dirname, 'cert', 'cert.pem')),
+//   }, app)
+// sslServer.listen(3443, () => console.log('secure server on 3443 port'))
 
-
+const sslOptions = {
+  key: fs.readFileSync(path.resolve(__dirname, process.env.SSL_KEY_FILE)),
+  cert: fs.readFileSync(path.resolve(__dirname, process.env.SSL_CRT_FILE))
+};
 
 // CORS policy
 const corsPolicy = {
@@ -73,7 +76,7 @@ app.use(session({
   }
 }));
 
-app.get('/', (req, res) => {
+app.get('/test', (req, res) => {
   res.send('Hello, HTTPS server is running!');
 });
 
@@ -90,7 +93,7 @@ app.use((req, res, next) => {
 
 // multiplarty middleware 
 app.use(multiparty());
-connectDB();
+
 
 // cloudinary config
 cloudinary.config({
@@ -117,11 +120,14 @@ app.use('/api/order', require('./routes/orderRoutes'));
 app.use('/api/rating', require('./routes/ratingRoutes'));
 
 // run the server
-app.listen(PORT, () => {
-  logger.error(`Server is running on ${PORT}`);
-});
+// app.listen(PORT, () => {
+//   logger.error(`Server is running on ${PORT}`);
+// });
+https.createServer(sslOptions, app).listen(PORT, () => {
+  logger.info(`Connected`);
+})
 
-
+connectDB();
 
 
 
