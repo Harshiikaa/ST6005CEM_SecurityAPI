@@ -113,10 +113,7 @@ app.use('/api/shippingInfo', require('./routes/shippingInfoRoutes'));
 app.use('/api/order', require('./routes/orderRoutes'));
 app.use('/api/rating', require('./routes/ratingRoutes'));
 
-// run the server
-// app.listen(PORT, () => {
-//   logger.error(`Server is running on ${PORT}`);
-// });
+
 https.createServer(sslOptions, app).listen(PORT, () => {
   logger.info(`Connected`);
 })
