@@ -188,27 +188,6 @@ const getSingleUser = async (req, res) => {
     }
 };
 
-// const getSingleUser = async (req, res) => {
-//     const id = req.params.id;
-//     if (!id) {
-//         return res.json({
-//             success: false,
-//             message: "User id is required!"
-//         })
-//     }
-//     try {
-//         const singleUser = await Users.findById(id);
-//         res.json({
-//             success: true,
-//             message: "User fetched successfully",
-//             user: singleUser
-//         })
-//     } catch (error) {
-//         console.log(error);
-//         res.status(500).json("Server Error")
-//     }
-// }
-
 // UPDATE USER
 const updateUser = async (req, res) => {
     console.log(req.body);
