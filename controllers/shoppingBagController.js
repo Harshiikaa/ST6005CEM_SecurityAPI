@@ -85,28 +85,6 @@ const getShoppingBagByUserID = async (req, res) => {
     }
 };
 
-// const getSingleShoppingBag = async (req, res) => {
-//     const id = req.params.id;
-//     if (!id) {
-//         return res.json({
-//             success: false,
-//             message: "Shopping bag id is required!"
-//         })
-//     }
-//     try {
-//         const singleShoppingBag = await ShoppingBag.findById(id);
-//         res.json({
-//             success: true,
-//             message: "Shopping bag fetched successfully",
-//             shoppingBag: singleShoppingBag
-//         })
-
-//     } catch (error) {
-//         console.log(error);
-//         res.status(500).json("Server Error")
-
-//     }
-// }
 
 const getSingleShoppingBag = async (req, res) => {
     const id = req.params.id;
